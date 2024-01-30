@@ -7,5 +7,5 @@ fun customFunction(num1: Int, num2: Int, num3: Int): Int {
 }
 
 fun HigherOrder(num1: Int, num2: Int, funcName:(num1:Int, num2: Int, num3:Int):Int ) {
-    print(funcName(num1, num2, num3))
+    println(funcName(num1, num2, num3))
 }
