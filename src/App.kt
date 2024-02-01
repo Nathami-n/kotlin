@@ -1,5 +1,6 @@
 fun main(args: Array<String>) {
-    interface Imine {
-        val name: String = "hell0"
-    }
+   enum class Operations(val: String) {
+    ADD("+"),
+    
+   }
 }
